@@ -69,23 +69,23 @@ struct Home: View {
                             let headerOffset = offsetCondition ? -(getMaxOffset() - progress) : -getMaxOffset()
                             headerData.headerOffset = headerOffset
                             
-//                            print(progress)
+                            print("up++++++++",headerOffset)
                         }
                         
-                        if offset > headerData.offset {
+                        if offset < headerData.offset {
                             
                             headerData.topScrollOffset = 0
-                            
+
                             if headerData.bottomScrollOffset == 0 {
-                                
+
                                 headerData.bottomScrollOffset = offset
                             }
-                            
+
                             withAnimation(.easeOut(duration: 0.25)) {
-                                
+
                                 let headerOffset = headerData.headerOffset
-                                
-                                headerData.headerOffset = headerData.bottomScrollOffset > offset + 40 ? 0 : (headerOffset != -getMaxOffset() ? 0 : headerOffset)
+
+                                headerData.headerOffset =  headerData.bottomScrollOffset > offset + 40 ? 0 : (headerOffset != -getMaxOffset() ? 0 : headerOffset)
                             }
                         }
                         
