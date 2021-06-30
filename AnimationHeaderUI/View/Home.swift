@@ -12,7 +12,7 @@ struct Home: View {
         
         ZStack(alignment: .top) {
             
-            
+            HeaderView()
         }
     }
 }
@@ -31,6 +31,15 @@ struct HeaderView: View {
         
         HStack {
             
+            Image(systemName: "play.fill")
+                .resizable()
+                .foregroundColor(.white)
+                .frame(width: 20, height: 20)
+                .padding(.horizontal, 20)
+                .padding(.vertical, 5)
+                .background(Color.red)
+                .cornerRadius(5)
+                
         }
     }
 }
