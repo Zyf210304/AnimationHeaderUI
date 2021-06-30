@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02653DE5268CBCA1005F3A88 /* HeaderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02653DE4268CBCA1005F3A88 /* HeaderViewModel.swift */; };
 		029A11F02689859B00563C06 /* AnimationHeaderUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A11EF2689859B00563C06 /* AnimationHeaderUIApp.swift */; };
 		029A11F22689859B00563C06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029A11F12689859B00563C06 /* ContentView.swift */; };
 		029A11F42689859C00563C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029A11F32689859C00563C06 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02653DE4268CBCA1005F3A88 /* HeaderViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderViewModel.swift; sourceTree = "<group>"; };
 		029A11EC2689859B00563C06 /* AnimationHeaderUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationHeaderUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029A11EF2689859B00563C06 /* AnimationHeaderUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHeaderUIApp.swift; sourceTree = "<group>"; };
 		029A11F12689859B00563C06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 		029A11FD268985AB00563C06 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				02653DE4268CBCA1005F3A88 /* HeaderViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				029A11F22689859B00563C06 /* ContentView.swift in Sources */,
+				02653DE5268CBCA1005F3A88 /* HeaderViewModel.swift in Sources */,
 				029A12002689860E00563C06 /* Home.swift in Sources */,
 				029A11F02689859B00563C06 /* AnimationHeaderUIApp.swift in Sources */,
 			);
